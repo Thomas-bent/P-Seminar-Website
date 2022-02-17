@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap%27');
+
+.navbar_container {
+    margin-top: 2rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(90deg,#93A0FF, #F197AB);
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold 700;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.navbar_list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar_list li a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar_list li {
+    color: #fff;
+    margin-right: 1rem;
+}
