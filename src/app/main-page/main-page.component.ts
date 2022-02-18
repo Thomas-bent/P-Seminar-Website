@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
+  heading: string = 'ATypical';
+
   constructor() { }
 
   ngOnInit(): void {
