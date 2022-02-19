@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap%27');
+
+.team-mate-container {
+    width: 20vw;
+    height: 50vh;
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;
+}
+.team-mate-heading {
+    background: var(--purple);
+    font-size: 2rem;
+}
+.team-mate-text {
+    background: var(--blue);
+}

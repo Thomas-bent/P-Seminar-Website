@@ -8,6 +8,8 @@ import { ErrorPageComponent } from './error-page/error-page.component';
 import { VideosComponent } from './videos/videos.component';
 import { BackstageComponent } from './backstage/backstage.component';
 import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
+import { TeamMateComponent } from './team-mate/team-mate.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { AboutComponent } from './about/about.component';
     ErrorPageComponent,
     VideosComponent,
     BackstageComponent,
-    AboutComponent
+    AboutComponent,
+    HeaderComponent,
+    TeamMateComponent
   ],
   imports: [
     BrowserModule,

@@ -9,3 +9,9 @@
 body {
     background: #202020;
 }
+:root {
+    --purple: #F197AB;
+    --blue: #93A0FF;
+    --dark: #1a1a1a;
+    --background: #202020;
+}
