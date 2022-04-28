@@ -10,6 +10,7 @@ import { BackstageComponent } from './backstage/backstage.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { TeamMateComponent } from './team-mate/team-mate.component';
+import { TopicContainerComponent } from './topic-container/topic-container.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TeamMateComponent } from './team-mate/team-mate.component';
     BackstageComponent,
     AboutComponent,
     HeaderComponent,
-    TeamMateComponent
+    TeamMateComponent,
+    TopicContainerComponent
   ],
   imports: [
     BrowserModule,
