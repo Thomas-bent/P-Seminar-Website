@@ -7,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainPageComponent implements OnInit {
 
-  heading: string = 'ATypical';
+  topics: Array<topic>;
 
-  constructor() { }
+  constructor() {
+    this.topics = [];
+  }
 
   ngOnInit(): void {
   }
+}
+
+class topic {
+
 }

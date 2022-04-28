@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap%27');
 
 .landing {
-    position: absolute;
-    margin-left: 50vw;
-    margin-top: 50vh;
-    transform: translate(-50%, -50%) scale(200%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
 }
+.landing > svg {
+    transform: scale(200%);
+    width: 50vw;
+    max-width: 500px;
+}
+.topic-container {}

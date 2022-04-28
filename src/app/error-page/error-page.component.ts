@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ErrorPageComponent implements OnInit {
 
-  constructor() { }
+  errorText: string;
+
+  constructor() { 
+    this.errorText = 'Diese Seite konnten wir leider nicht finden :('
+  }
 
   ngOnInit(): void {
   }

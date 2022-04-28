@@ -1,1 +1,3 @@
-<p>about works!</p>
+<div class="about-main-container">
+    <app-team-mate *ngFor="let mate of teamMates" [name]="mate.name" [text]="mate.description"></app-team-mate>
+</div>

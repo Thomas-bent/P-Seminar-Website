@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap%27');
 
 .navbar_container {
-    margin-top: 2rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
     height: 3.5rem;
     display: flex;
     align-items: center;
@@ -11,6 +14,10 @@
     font-weight: bold 700;
     font-size: 1.5rem;
     text-transform: capitalize;
+    transition: 0.1s;
+}
+.standard {
+    top: 2.5rem;
 }
 .logo {
     transition: 150ms;

@@ -7,9 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  standard = true;
+
+  constructor() {
+
+    
+  }
 
   ngOnInit(): void {
+    const navbar = document.getElementById('navbar_container');
+
+    window.onscroll = () => {
+
+      if (navbar != null) {
+        if (window.scrollY > navbar.offsetTop) {
+          this.standard = false;
+          console.log(window.scrollY + "\t" + navbar.offsetTop);
+          
+        } else {
+          this.standard = true;
+        }
+      }
+    }
   }
 
 }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap%27');
+
+.error-page-main-container {
+    display: flex;
+    justify-content: center;
+}
+.blob-error-page {
+    position: absolute;
+    z-index: -1;
+    justify-self: center;
+    align-self: center;
+    transform: translate(0, 15%);
+}
+.text-container {
+    margin-top: 20vh;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+}
+.text-container > li {
+    text-align: center;
+}
+.four-zero-four {
+    font-family: 'Comfortaa', sans-serif;
+    color: #fff;
+    font-size: 13vw;
+}
+.error-text-not-found {
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 2vw;
+}
