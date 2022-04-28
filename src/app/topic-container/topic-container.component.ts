@@ -12,4 +12,10 @@ export class TopicContainerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  blobClick($event: Event) {
+    if ($event.target instanceof SVGElement) {
+      const blob = $event.target
+      console.log(blob)
+    }
+  }
 }

@@ -1,0 +1,6 @@
+.blob:hover {
+  cursor: pointer;
+}
+#blob_01 {
+  width: 30vw;
+}

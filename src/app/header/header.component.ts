@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() {
 
-    
+
   }
 
   ngOnInit(): void {
@@ -22,8 +22,7 @@ export class HeaderComponent implements OnInit {
       if (navbar != null) {
         if (window.scrollY > navbar.offsetTop) {
           this.standard = false;
-          console.log(window.scrollY + "\t" + navbar.offsetTop);
-          
+
         } else {
           this.standard = true;
         }
